@@ -1,17 +1,16 @@
 .navigation {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 25px;
+  padding: 25px 0;
   background-color: #2BD9FE;
 }
 
 .login-register {
-  position: fixed;
-  right: 0px;
+  float: right;
 }
 
-.login-register a {
-  padding: 29px 25px;
+.navigation a {
+  padding: 28px 25px;
 }

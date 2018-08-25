@@ -5,6 +5,7 @@ import {Route, withRouter} from 'react-router-dom';
 import {refreshAuthToken} from '../actions/auth';
 
 import Navigation from './navigation';
+import LandingPage from './landingpage';
 import Login from './login';
 import Registration from './registration';
 
@@ -41,7 +42,7 @@ class App extends React.Component {
     return(
       <div className="app">
         <Navigation />
-        {/* <Route exact path="/" component={LandingPage} /> */}
+        <Route exact path="/" component={LandingPage} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Registration} />
       </div>
