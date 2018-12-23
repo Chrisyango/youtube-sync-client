@@ -8,6 +8,7 @@ import Navigation from './navigation';
 import LandingPage from './landingpage';
 import Login from './login';
 import Registration from './registration';
+import Youtube from './youtube';
 
 class App extends React.Component {
   componentWillReceiveProps(nextProps) {
@@ -45,6 +46,7 @@ class App extends React.Component {
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/login" component={Login} />
         <Route exact path="/register" component={Registration} />
+        <Route exact path="/youtube" component={Youtube} />
       </div>
     ) 
   }

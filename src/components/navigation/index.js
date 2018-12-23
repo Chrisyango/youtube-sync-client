@@ -17,6 +17,7 @@ export class Navigation extends React.Component {
     return (
       <nav className="navigation">
         <Link to='/'>Home</Link>
+        <Link to='/youtube'>Youtube</Link>
         <div className="login-register">
           <Link to='/login'>Login</Link>
           <Link to='/register'>Sign Up</Link>
